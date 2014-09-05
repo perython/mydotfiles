@@ -1,0 +1,18 @@
+[color]
+    ui = true
+[user]
+    name = perython
+    email = 
+[core]
+    autocrlf = input
+    safecrlf = true
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    f = fetch
+    d = diff
+    ds = diff --staged
+    pom = pull origin master
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    mylg = log --color --graph --all --author=perython --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --abbrev-commit
